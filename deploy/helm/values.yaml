@@ -1,7 +1,7 @@
 deploymentName: kubernetes-image-puller
-image: 
-  repository: quay.io/eclipse/kubernetes-image-puller
-  tag: next
+image:
+  repository: helxplatform/kubernetes-image-puller
+  tag: 1.0.0
 serviceAccount:
   name: k8s-image-puller
 configMap:
